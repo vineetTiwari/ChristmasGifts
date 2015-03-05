@@ -14,12 +14,14 @@
                         <group width="1" alignment="left" verticalAlignment="center" id="FOp-u4-ClC">
                             <items>
                                 <button width="0.5" alignment="left" title="Dad" id="6GZ-Tv-WrN">
+                                    <color key="titleColor" red="0.39342038911660338" green="1" blue="0.32820942388862628" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" red="0.00043402777777779011" green="9.962694093438863e-05" blue="8.6535144923130785e-05" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <segue destination="2x0-1r-I4h" kind="push" id="jAZ-yi-NJP"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" alignment="left" title="Mom" id="nXN-eJ-LqK">
+                                    <color key="titleColor" red="1" green="0.97114177617883102" blue="0.27505334024068284" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <segue destination="UpJ-Bu-xdl" kind="push" id="aBl-j0-GvY"/>
@@ -30,12 +32,14 @@
                         <group width="1" alignment="left" verticalAlignment="center" id="Ksg-RK-5NI">
                             <items>
                                 <button width="0.5" alignment="left" title="Vinny" id="gxV-Uh-vhY">
+                                    <color key="titleColor" red="0.11706275740052907" green="0.81768787283437838" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" red="0.0004340277778" green="9.9626940929999996e-05" blue="8.6535144920000002e-05" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <segue destination="Aoi-pD-L4y" kind="push" id="0Rg-ON-Nbe"/>
                                     </connections>
                                 </button>
                                 <button width="0.5" alignment="left" title="Ruby" id="yg7-e5-v2M">
+                                    <color key="titleColor" red="1" green="0.16503842269052582" blue="0.85660752409328045" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <segue destination="Qbb-7D-Kd6" kind="push" id="3xZ-ru-CEm"/>
@@ -58,7 +62,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="420" y="159"/>
+            <point key="canvasLocation" x="420" y="199"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="HO0-Rz-l3W">
@@ -69,7 +73,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="638" y="159"/>
+            <point key="canvasLocation" x="633" y="199"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="444-I2-Imx">
@@ -80,7 +84,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="638" y="445"/>
+            <point key="canvasLocation" x="633" y="418"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="v5u-VB-pWj">
@@ -91,7 +95,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="420" y="464"/>
+            <point key="canvasLocation" x="420" y="418"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
