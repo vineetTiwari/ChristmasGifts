@@ -11,6 +11,13 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="christmasGift_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label height="23" alignment="center" text="Xmas Gift Ideas" id="2Li-kZ-Si8"/>
+                        <button width="1" alignment="left" title="All Gifts" id="Apo-Dd-O0y">
+                            <color key="titleColor" red="0.96113478535353536" green="0.056497913855400692" blue="0.1370366639011428" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.29118709756754685" green="0.77675189393939392" blue="0.30266367823857665" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="ChM-TS-wkw" kind="push" id="QQD-3k-lkc"/>
+                            </connections>
+                        </button>
                         <group width="1" alignment="left" verticalAlignment="center" id="FOp-u4-ClC">
                             <items>
                                 <button width="0.5" alignment="left" title="Dad" id="6GZ-Tv-WrN">
@@ -97,6 +104,28 @@
             </objects>
             <point key="canvasLocation" x="420" y="418"/>
         </scene>
+        <!--Interface Controller-->
+        <scene sceneID="jW8-7A-hzo">
+            <objects>
+                <controller id="ChM-TS-wkw">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" id="fWQ-2b-AAp">
+                            <items>
+                                <imageView width="0.5" height="1" alignment="left" image="bow tie" contentMode="scaleAspectFill" id="ez4-QE-dEN"/>
+                                <imageView width="0.5" height="1" alignment="left" image="purse" contentMode="scaleAspectFill" id="FUF-OW-ZZd"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="left" id="FL1-pB-dcd">
+                            <items>
+                                <imageView width="0.5" height="1" alignment="left" image="watch" contentMode="scaleAspectFill" id="Lw0-TT-m4u"/>
+                                <imageView width="0.5" height="1" alignment="left" image="pooh" contentMode="scaleAspectFill" id="Dsg-dp-XS8"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="420" y="658"/>
+        </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>
@@ -111,14 +140,14 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="749"/>
+            <point key="canvasLocation" x="256" y="965"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
                 <controller id="4sK-HA-Art" customClass="NotificationController" customModule="christmasGift_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="469" y="749"/>
+            <point key="canvasLocation" x="546" y="965"/>
         </scene>
     </scenes>
 </document>
