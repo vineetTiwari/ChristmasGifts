@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notification - christmasGift WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>christmasGift WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>christmasGift.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>96E136481AA8DE1800012BF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96E136691AA8DE6800012BF5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

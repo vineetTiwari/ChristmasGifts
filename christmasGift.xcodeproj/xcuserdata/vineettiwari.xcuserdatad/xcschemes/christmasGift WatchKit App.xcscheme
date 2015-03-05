@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96E136331AA8DE1700012BF5"
-               BuildableName = "christmasGift.app"
-               BlueprintName = "christmasGift"
+               BlueprintIdentifier = "96E136691AA8DE6800012BF5"
+               BuildableName = "christmasGift WatchKit App.app"
+               BlueprintName = "christmasGift WatchKit App"
                ReferencedContainer = "container:christmasGift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96E136481AA8DE1800012BF5"
-               BuildableName = "christmasGiftTests.xctest"
-               BlueprintName = "christmasGiftTests"
+               BlueprintIdentifier = "96E1365C1AA8DE6800012BF5"
+               BuildableName = "christmasGift WatchKit Extension.appex"
+               BlueprintName = "christmasGift WatchKit Extension"
+               ReferencedContainer = "container:christmasGift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96E136331AA8DE1700012BF5"
+               BuildableName = "christmasGift.app"
+               BlueprintName = "christmasGift"
                ReferencedContainer = "container:christmasGift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96E136481AA8DE1800012BF5"
-               BuildableName = "christmasGiftTests.xctest"
-               BlueprintName = "christmasGiftTests"
-               ReferencedContainer = "container:christmasGift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96E136331AA8DE1700012BF5"
-            BuildableName = "christmasGift.app"
-            BlueprintName = "christmasGift"
+            BlueprintIdentifier = "96E136691AA8DE6800012BF5"
+            BuildableName = "christmasGift WatchKit App.app"
+            BlueprintName = "christmasGift WatchKit App"
             ReferencedContainer = "container:christmasGift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/christmasGift">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96E136331AA8DE1700012BF5"
-            BuildableName = "christmasGift.app"
-            BlueprintName = "christmasGift"
+            BlueprintIdentifier = "96E136691AA8DE6800012BF5"
+            BuildableName = "christmasGift WatchKit App.app"
+            BlueprintName = "christmasGift WatchKit App"
             ReferencedContainer = "container:christmasGift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96E136691AA8DE6800012BF5"
+            BuildableName = "christmasGift WatchKit App.app"
+            BlueprintName = "christmasGift WatchKit App"
+            ReferencedContainer = "container:christmasGift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/christmasGift">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96E136331AA8DE1700012BF5"
-            BuildableName = "christmasGift.app"
-            BlueprintName = "christmasGift"
+            BlueprintIdentifier = "96E136691AA8DE6800012BF5"
+            BuildableName = "christmasGift WatchKit App.app"
+            BlueprintName = "christmasGift WatchKit App"
             ReferencedContainer = "container:christmasGift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96E136691AA8DE6800012BF5"
+            BuildableName = "christmasGift WatchKit App.app"
+            BlueprintName = "christmasGift WatchKit App"
+            ReferencedContainer = "container:christmasGift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
